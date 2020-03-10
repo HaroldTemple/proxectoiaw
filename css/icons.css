@@ -1,0 +1,27 @@
+.lnr {
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.05em;
+}
+
+.lnr-user,
+.lnr-highlight,
+.lnr-home,
+.lnr-phone-handset,
+.lnr-license,
+.lnr-lock {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+}
+
+p {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+body {
+  font-size: 40px;
+  font-family: sans-serif;
+  color: #555;
+}
