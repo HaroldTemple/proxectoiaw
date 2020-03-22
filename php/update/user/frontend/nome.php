@@ -25,8 +25,11 @@ if($validUsuarioYcontrasinal != 1){
         <div class=\"limiter\">
             <div class=\"container-login100\" style=\"background-image: url('../../../../images/bg-01.jpg');\">
                 <div class=\"wrap-login100 p-t-30 p-b-50\">
-                    <span class=\"login100-form-title p-b-40\">
-                    modifica </br> nome
+                    <span class=\"login100-form-title p-b-40\">";
+                    echo "<a>conectado como</a></br>";
+                    echo "<span style=\"color: #66CCFF\">".$usuario."</span></br>";
+                    echo "</br>";
+                    echo "modifica </br> nome
                     </span>
                     <form class=\"login100-form validate-form p-b-33 p-t-5\" name=\"formulario\" method=\"post\"
                         action=\"../backend/nome.php\">

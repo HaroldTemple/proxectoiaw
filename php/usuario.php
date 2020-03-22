@@ -34,43 +34,44 @@ if($validUsuarioYcontrasinal != 1){
                 <div class='container-login100' style=\"background-image: url('../images/bg-01.jpg');\">
                     <div class='wrap-login100 p-t-30 p-b-50'>
                         <span class='login100-form-title p-b-41'>
-                            cuenta de usuario de "; echo $usuario;
+                            cuenta de usuario de</br>";
+        echo "<span style=\"color: #66CCFF\">".$usuario."</span></br>";
         echo "
-            </span>
-            <div class='limiter' style='text-align: center'>
-                <a href='update/user/frontend/nome.php'>
-                    <svg class='lnr lnr-highlight'>
-                        <use xlink:href='#lnr-highlight'></use>
-                    </svg>
-                </a>
-                <a href='update/user/frontend/enderezo.php'>
-                    <svg class='lnr lnr-home'>
-                        <use xlink:href='#lnr-home'></use>
-                    </svg>
-                </a>
-                <a href='update/user/frontend/telefono.php'>
-                    <svg class='lnr lnr-phone-handset'>
-                        <use xlink:href='#lnr-phone-handset'></use>
-                    </svg>
-                </a>
-                <a href='update/user/frontend/dni.php'>
-                    <svg class='lnr lnr-license'>
-                        <use xlink:href='#lnr-license'></use>
-                    </svg>
-                </a>
-                <a href='update/user/frontend/contrasinal.php'>
-                    <svg class='lnr lnr-lock'>
-                        <use xlink:href='#lnr-lock'></use>
-                    </svg>
-                </a>
-            </div>
-            <div>
-                <p>nome | enderezo | teléfono | dni | contrasinal</p>
-            </div>
-            <p></p>
-            <p>
-                <a href='menu.php'>
+        </span>
+        <div class='limiter' style='text-align: center'>
+            <a href='update/user/frontend/nome.php'>
+                <svg class='lnr lnr-highlight'>
+                    <use xlink:href='#lnr-highlight'></use>
+                </svg>
+            </a>
+            <a href='update/user/frontend/enderezo.php'>
+                <svg class='lnr lnr-home'>
+                    <use xlink:href='#lnr-home'></use>
+                </svg>
+            </a>
+            <a href='update/user/frontend/telefono.php'>
+                <svg class='lnr lnr-phone-handset'>
+                    <use xlink:href='#lnr-phone-handset'></use>
+                </svg>
+            </a>
+            <a href='update/user/frontend/dni.php'>
+                <svg class='lnr lnr-license'>
+                    <use xlink:href='#lnr-license'></use>
+                </svg>
+            </a>
+            <a href='update/user/frontend/contrasinal.php'>
                 <svg class='lnr lnr-lock'>
+                    <use xlink:href='#lnr-lock'></use>
+                </svg>
+            </a>
+        </div>
+        <div>
+            <p>nome | enderezo | teléfono | dni | contrasinal</p>
+        </div>
+        <p></p>
+        <p>
+            <a href='menu.php'>
+            <svg class='lnr lnr-lock'>
                     <use xlink:href='#lnr-undo'></use>
                 </svg>
                 </a>

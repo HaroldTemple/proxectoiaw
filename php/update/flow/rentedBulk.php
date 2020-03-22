@@ -28,7 +28,7 @@ if ($validUsuarioYcontrasinal != 1){
     $totalDevolto = $result->num_rows;
 
     #Insert na táboa equipos_devolto
-    $consultaInsertDevolto = "INSERT INTO equipo_devolto VALUES ('$marca', '$cantidade', '$descripcion', '$modelo', '$foto', '$usuario')";
+    $consultaInsertDevolto = "INSERT INTO equipo_devolto (marca, cantidade, descripcion, modelo, foto, usuario) VALUES ('$marca', '$cantidade', '$descripcion', '$modelo', '$foto', '$usuario')";
     
     #Update na táboa equipo_devolto
     $consultaUpdateDevolto = "UPDATE equipo_devolto SET cantidade = cantidade+$cantidade WHERE modelo = '$modelo' AND usuario = '$usuario'";

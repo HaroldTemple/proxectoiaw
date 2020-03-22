@@ -1,5 +1,3 @@
-DROP DATABASE equipamentos;
-
 CREATE DATABASE
     `equipamentos`
         DEFAULT CHARSET=utf32
@@ -32,10 +30,10 @@ CREATE TABLE
 
 CREATE TABLE
     `equipamentos`.`equipo_aluguer` (
-        `marca` VARCHAR(24) CHARACTER SET utf32 COLLATE utf32_spanish_ci,
+        `modelo` VARCHAR(50) CHARACTER SET utf32 COLLATE utf32_spanish_ci,
         `cantidade` INT,
         `descripcion` VARCHAR(100) CHARACTER SET utf32 COLLATE utf32_spanish_ci,
-        `modelo` VARCHAR(50) CHARACTER SET utf32 COLLATE utf32_spanish_ci,
+        `marca` VARCHAR(24) CHARACTER SET utf32 COLLATE utf32_spanish_ci,
         `prezo` INT,
         `foto` VARCHAR(1000) CHARACTER SET utf32 COLLATE utf32_spanish_ci)
 	ENGINE = InnoDB
@@ -44,10 +42,10 @@ CREATE TABLE
 
 CREATE TABLE
     `equipamentos`.`equipo_alugado` (
-        `marca` VARCHAR(24) CHARACTER SET utf32 COLLATE utf32_spanish_ci,
+        `modelo` VARCHAR(50) CHARACTER SET utf32 COLLATE utf32_spanish_ci,
         `cantidade` INT,
         `descripcion` VARCHAR(100) CHARACTER SET utf32 COLLATE utf32_spanish_ci,
-        `modelo` VARCHAR(50) CHARACTER SET utf32 COLLATE utf32_spanish_ci,
+        `marca` VARCHAR(24) CHARACTER SET utf32 COLLATE utf32_spanish_ci,
         `foto` VARCHAR(1000) CHARACTER SET utf32 COLLATE utf32_spanish_ci,
         `usuario` VARCHAR(24) CHARACTER SET utf32 COLLATE utf32_spanish_ci)
 	ENGINE = InnoDB
@@ -56,10 +54,10 @@ CREATE TABLE
 
 CREATE TABLE
     `equipamentos`.`equipo_devolto` (
-        `marca` VARCHAR(24) CHARACTER SET utf32 COLLATE utf32_spanish_ci,
+        `modelo` VARCHAR(50) CHARACTER SET utf32 COLLATE utf32_spanish_ci,
         `cantidade` INT,
         `descripcion` VARCHAR(100) CHARACTER SET utf32 COLLATE utf32_spanish_ci,
-        `modelo` VARCHAR(50) CHARACTER SET utf32 COLLATE utf32_spanish_ci,
+        `marca` VARCHAR(24) CHARACTER SET utf32 COLLATE utf32_spanish_ci,
         `foto` VARCHAR(1000) CHARACTER SET utf32 COLLATE utf32_spanish_ci,
         `usuario` VARCHAR(24) CHARACTER SET utf32 COLLATE utf32_spanish_ci)
 	ENGINE = InnoDB
@@ -68,10 +66,10 @@ CREATE TABLE
 
 CREATE TABLE
     `equipamentos`.`equipo_venda` (
-        `marca` VARCHAR(24) CHARACTER SET utf32 COLLATE utf32_spanish_ci,
+        `modelo` VARCHAR(50) CHARACTER SET utf32 COLLATE utf32_spanish_ci,
         `cantidade` INT,
         `descripcion` VARCHAR(100) CHARACTER SET utf32 COLLATE utf32_spanish_ci,
-        `modelo` VARCHAR(50) CHARACTER SET utf32 COLLATE utf32_spanish_ci,
+        `marca` VARCHAR(24) CHARACTER SET utf32 COLLATE utf32_spanish_ci,
         `prezo` INT,
         `foto` VARCHAR(1000) CHARACTER SET utf32 COLLATE utf32_spanish_ci)
 	ENGINE = InnoDB

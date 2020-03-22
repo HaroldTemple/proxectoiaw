@@ -6,4 +6,4 @@ INSERT
     
 INSERT
     INTO `usuario` (`usuario`, `contrasinal`, `nome`, `direccion`, `telefono`, `nifdni`, `tipo_usuario`)
-    VALUES ('alberto', '123qweA', 'Macarena', 'Rúa La vie 5', '666999888', '35566019S', 'a');
+    VALUES ('alberto', '123qweAA', 'Macarena', 'Rúa La vie 5', '666999888', '35566019S', 'a');

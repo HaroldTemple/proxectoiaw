@@ -201,7 +201,7 @@ $total = $usuarioV + $nomeV + $enderezoV + $dniV + $telefonoV + $contrasinalV;
 
 #Se a suma (todas) e igual a 6, facemos un Insert na táboa novo_rexistro para deixar o usuario prerexistrado
 if ($total == 6) {
-	$conn_db->query("INSERT INTO novo_rexistro VALUES('$usuario', '$contrasinal1', '$nome', '$enderezo', '$telefono', '$dni')");
+	$conn_db->query("INSERT INTO novo_rexistro (usuario, contrasinal, nome, direccion, telefono, nifdni) VALUES('$usuario', '$contrasinal1', '$nome', '$enderezo', '$telefono', '$dni')");
 
 	#Rediriximos exito
 	header("Location: ./check/signup_success.php");

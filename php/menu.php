@@ -47,7 +47,9 @@ if($validUsuarioYcontrasinal != 1){
                         <div class='container-login100' style='background-image: url(\"../images/bg-01.jpg\");'>
                             <div class='wrap-login100 p-t-30 p-b-50'>
                                 <span class='login100-form-title p-b-40'>
-                                    panel de usuario
+                                    panel de usuario</br>";
+                                    echo "<span style=\"color: #66CCFF\">".$usuario."</span>";
+                                    echo "
                                 </span>
                                 <div class='container-login100-form-btn m-t-32'>
                                     <a class='login100-form-btn' href=\"rent.php\">Aluguer</a>
@@ -97,7 +99,9 @@ if($validUsuarioYcontrasinal != 1){
                         <div class='container-login100' style='background-image: url(\"../images/bg-01.jpg\");'>
                             <div class='wrap-login100 p-t-30 p-b-50'>
                                 <span class='login100-form-title p-b-40'>
-                                    panel de administrador
+                                    panel de administrador</br>";
+                                    echo "<span style=\"color: #66CCFF\">".$usuario."</span>";
+                                    echo "
                                 </span>
                                 <div class='container-login100-form-btn m-t-32'>
                                     <a class='login100-form-btn' href=\"./update/admin_panel/nuevos_registros.php\">Administrar novos rexistros</a>

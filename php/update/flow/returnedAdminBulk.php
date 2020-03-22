@@ -30,7 +30,7 @@ if ($validUsuarioYcontrasinal != 1){
     $consultaTotalItem = $conn_db->query("SELECT cantidade FROM equipo_aluguer WHERE modelo = '$modelo'");
     $filaConsulta = $consultaTotalItem->fetch_assoc();
     $totalCantidade = $filaConsulta['cantidade'];
-
+    $totalCantidade++;
 
     #Update na táboa equipo_aluguer
     $consultaUpdateAlugado = "UPDATE equipo_aluguer SET cantidade = cantidade+$cantidade WHERE modelo = '$modelo'";

@@ -41,7 +41,7 @@ if ($marcaLargo == 0 OR
 	##Insert na táboa equipo_aluguer
     $consultaInsertAluguer="INSERT
         INTO equipo_aluguer (marca, cantidade, descripcion, modelo, prezo, foto)
-        VALUES ('$marca', '$cantidade', '$descripcion', '$modeloLargo', '$prezo', '$foto')";
+        VALUES ('$marca', '$cantidade', '$descripcion', '$modelo', '$prezo', '$foto')";
         $conn_db->query($consultaInsertAluguer);
     header("Location: ./../../check/aluguer_nuevo_success.php");
 }

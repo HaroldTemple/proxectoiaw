@@ -41,7 +41,7 @@ if ($validUsuarioYcontrasinal != 1){
     $totalAlugado = $result->num_rows;
 
     #Insert na táboa equipos_alugado
-    $consultaInsertAlugado = "INSERT INTO equipo_alugado VALUES ('$marca', '1', '$descripcion', '$modelo', '$foto', '$usuario')";
+    $consultaInsertAlugado = "INSERT INTO equipo_alugado (marca, cantidade, descripcion, modelo, foto, usuario) VALUES ('$marca', '1', '$descripcion', '$modelo', '$foto', '$usuario')";
     
     #Insert na táboa equipos_alugado
     $consultaUpdatetAlugado = "UPDATE equipo_alugado SET cantidade = cantidade+1 WHERE modelo = '$modelo' AND usuario = '$usuario'";

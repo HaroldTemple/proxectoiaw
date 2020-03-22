@@ -34,8 +34,7 @@ if ($validUsuarioYcontrasinal != 1){
     $totalCantidade = $filaConsulta['cantidade'];
 
     #Insert na táboa equipo_devolto
-    $consultaInsertDevolto = "INSERT INTO equipo_devolto VALUES ('$marca', '1', '$descripcion', '$modelo', '$foto', '$usuario')";
-    
+    $consultaInsertDevolto = "INSERT INTO equipo_devolto (marca, cantidade, descripcion, modelo, foto, usuario) VALUES ('$marca', '1', '$descripcion', '$modelo', '$foto', '$usuario')";    
     #Update na táboa equipo_devolto
     $consultaUpdateDevolto = "UPDATE equipo_devolto SET cantidade = cantidade+1 WHERE modelo = '$modelo' AND usuario = '$usuario'";
 
